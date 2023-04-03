@@ -59,10 +59,16 @@ li{
 .light-blue,.blue,.pink{
     height: 300px; 
 }
-.main_1{
+section:nth-child(2n){
+    background-color: gray;
+}
+.box{
     height: 350px;
     justify-content: center;
     align-items: center;
+}
+#box_centrale{
+    flex-direction: row-reverse;
 }
 .light-blue{
     width:40% ;
@@ -71,4 +77,15 @@ li{
 .pink{
     width: 20%;
     background-color: pink;
+}
+.bigbox-container{
+    height:650px ;
+    justify-content: center;
+    align-items: center;
+}
+.big-box{
+    height:600px;
+    width:60% ;
+    
+    background-color: green;
 }
