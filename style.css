@@ -74,13 +74,12 @@ section:nth-child(2n){
 #box_centrale{
     flex-direction: row-reverse;
 }
-.central-container{
 
-}
 .central-container{
     height: 350px;
     width:60% ;
     margin: auto;
+    align-items: center;
 }
 .light-blue{
     width:60% ;
